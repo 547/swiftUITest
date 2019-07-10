@@ -31,6 +31,7 @@ struct TestView : View {
                 ) {
                     Text("pop")
                 }
+                
                 Slider.init(value: $progress, from: 0.0, through: 100.0, by: 5.0)
                 Button.init("change progress") {
                     if self.progress >= 100 {
@@ -62,11 +63,14 @@ struct TestView : View {
                         .background(backgroundView)
             )
                 .navigationBarTitle("Test Navigation", displayMode: .inline)
-            
-            
-            
         }
         .accentColor(.yellow)
+            .onAppear {
+                print("app ====")
+        }
+        .onDisappear {
+            print("dis app=====")
+        }
         
         
     }
