@@ -21,7 +21,6 @@ struct ModalTestView : View {
             .tapAction {
                 self.show = true
         }.presentation(show ? model : nil)
-        
     }
 }
 
