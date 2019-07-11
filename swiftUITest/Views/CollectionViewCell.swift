@@ -19,7 +19,6 @@ struct CollectionViewCell : View {
             .lineLimit(3)
                 .frame(width: 80)
             
-            
         }
         
     }

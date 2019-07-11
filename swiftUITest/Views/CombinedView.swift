@@ -22,7 +22,6 @@ struct CombinedView : View {
             }
             .navigationBarTitle("Combined")
             .padding()
-            
         }
     }
 }
