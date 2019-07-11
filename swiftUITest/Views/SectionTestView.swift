@@ -17,6 +17,7 @@ struct SectionTestView : View {
                 }
             }
             Section.init(header:
+                //给section header 添加背景
                 ZStack.init(alignment: .leading, content: {
                     Rectangle.init()
                         .foregroundColor(.red)
