@@ -12,7 +12,7 @@ struct SectionTestView : View {
     var body: some View {
         List.init {
             Section.init {
-                ForEach.init(0...5) { _ in
+                ForEach.init(0...16) { _ in
                     Text("dusiioso")
                 }
             }
@@ -29,13 +29,13 @@ struct SectionTestView : View {
                 })
                     .frame(width: UIScreen.main.bounds.width)
             , footer: Text("footer")) {
-                ForEach.init(0..<3) { _ in
+                ForEach.init(0..<5) { _ in
                     Text("haha")
                 }
             }.foregroundColor(.red)
             
             Section.init(header: Text("header")) {
-                ForEach.init(0...3) { _ in
+                ForEach.init(0...12) { _ in
                     Text("hiii")
                     .background(Color.red)
                 }
