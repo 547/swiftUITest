@@ -16,18 +16,29 @@ struct SectionTestView : View {
                     Text("dusiioso")
                 }
             }
-            Section.init(header: Text("header").background(Color.white), footer: Text("footer")) {
+            Section.init(header:
+                ZStack.init(alignment: .leading, content: {
+                    Rectangle.init()
+                        .foregroundColor(.red)
+                        .edgesIgnoringSafeArea(.horizontal)
+                    Text("header")
+                        .color(.white)
+                        .font(.system(.title))
+                    .padding(.leading, 16)
+                })
+                    .frame(width: UIScreen.main.bounds.width)
+            , footer: Text("footer")) {
                 ForEach.init(0..<3) { _ in
                     Text("haha")
                 }
-            }
+            }.foregroundColor(.red)
             
             Section.init(header: Text("header")) {
                 ForEach.init(0...3) { _ in
                     Text("hiii")
                     .background(Color.red)
                 }
-            }
+            }.background(Color.blue)
         }
     }
 }
