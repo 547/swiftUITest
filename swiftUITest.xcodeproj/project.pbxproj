@@ -11,6 +11,7 @@
 		E612CB2822D6E4D400CF7DA2 /* SectionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB2722D6E4D400CF7DA2 /* SectionTestView.swift */; };
 		E612CB2A22D702C500CF7DA2 /* AlertTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB2922D702C500CF7DA2 /* AlertTestView.swift */; };
 		E612CB2C22D7099C00CF7DA2 /* ModalTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB2B22D7099C00CF7DA2 /* ModalTestView.swift */; };
+		E612CB3222D7437900CF7DA2 /* TabbedTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB3122D7437900CF7DA2 /* TabbedTestView.swift */; };
 		E691B63E22CF36870015732C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E691B63722CF36870015732C /* Landmark.swift */; };
 		E691B63F22CF36870015732C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E691B63922CF36870015732C /* MapView.swift */; };
 		E691B64022CF36870015732C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E691B63A22CF36870015732C /* CircleImage.swift */; };
@@ -54,6 +55,7 @@
 		E612CB2722D6E4D400CF7DA2 /* SectionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTestView.swift; sourceTree = "<group>"; };
 		E612CB2922D702C500CF7DA2 /* AlertTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTestView.swift; sourceTree = "<group>"; };
 		E612CB2B22D7099C00CF7DA2 /* ModalTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTestView.swift; sourceTree = "<group>"; };
+		E612CB3122D7437900CF7DA2 /* TabbedTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedTestView.swift; sourceTree = "<group>"; };
 		E68CDA9E22CDC6F900B7BE2B /* swiftUITest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftUITest.entitlements; sourceTree = "<group>"; };
 		E691B63722CF36870015732C /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		E691B63922CF36870015732C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				E612CB2722D6E4D400CF7DA2 /* SectionTestView.swift */,
 				E612CB2922D702C500CF7DA2 /* AlertTestView.swift */,
 				E612CB2B22D7099C00CF7DA2 /* ModalTestView.swift */,
+				E612CB3122D7437900CF7DA2 /* TabbedTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				E691B63E22CF36870015732C /* Landmark.swift in Sources */,
 				E691B64022CF36870015732C /* CircleImage.swift in Sources */,
 				E691B64522CF397F0015732C /* TestView.swift in Sources */,
+				E612CB3222D7437900CF7DA2 /* TabbedTestView.swift in Sources */,
 				E691B64122CF36870015732C /* LandmarkRowView.swift in Sources */,
 				E691B64D22D2EFE50015732C /* CollectionViewCell.swift in Sources */,
 				E691B64B22D2E66D0015732C /* MoreTest.swift in Sources */,

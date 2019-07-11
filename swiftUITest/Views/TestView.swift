@@ -19,6 +19,7 @@ struct TestView : View {
     var body: some View {
         NavigationView.init {
             VStack.init {
+                
                 Toggle.init(isOn: $show) {
                     Text("hey")
                 }
@@ -40,6 +41,8 @@ struct TestView : View {
                         self.progress += 10
                     }
                 }
+                Image.init("turtlerock")
+                .cornerRadius(50)
                 
             }.padding()
                 .navigationBarItems(trailing:
