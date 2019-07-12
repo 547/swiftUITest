@@ -44,6 +44,16 @@ struct SectionTestView : View {
                     Spacer()
                 }).padding(0).background(Color.blue).relativeWidth(1.1)
                
+                
+                //下面这种写法也是一样的
+//                VStack.init(content: {
+//                    Spacer()
+//                    HStack.init {
+//                        Text("header")
+//                        Spacer()
+//                    }
+//                    Spacer()
+//                }).padding(0).background(Color.blue.relativeWidth(1.1))
             ) {
                 ForEach.init(0...12) { _ in
                     Text("hiii")
