@@ -34,7 +34,16 @@ struct SectionTestView : View {
             }
             
             Section.init(header:
-               Text("header")
+                //更科学一点的设置section header 添加背景，重点就是设置相对父视图宽度relativeWidth的值大于1就可以了
+                VStack.init(content: {
+                    Spacer()
+                    HStack.init {
+                        Text("header")
+                        Spacer()
+                    }
+                    Spacer()
+                }).padding(0).background(Color.blue).relativeWidth(1.1)
+               
             ) {
                 ForEach.init(0...12) { _ in
                     Text("hiii")
