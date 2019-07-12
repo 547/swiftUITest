@@ -16,6 +16,7 @@ struct CollectionViewCell : View {
                 .resizable()
                        .frame(width: 80, height: 80)
             Text("testhjjhjhjhjhjhjhjhjhjhhjhjhjeeretewretertret")
+                //Text 无限行 是lineLimit(nil),不再是0
             .lineLimit(3)
                 .frame(width: 80)
             
