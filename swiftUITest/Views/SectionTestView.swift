@@ -21,7 +21,6 @@ struct SectionTestView : View {
                 ZStack.init(alignment: .leading, content: {
                     Rectangle.init()
                         .foregroundColor(.red)
-                        .edgesIgnoringSafeArea(.horizontal)
                     Text("header")
                         .color(.white)
                         .font(.system(.title))
@@ -32,9 +31,11 @@ struct SectionTestView : View {
                 ForEach.init(0..<5) { _ in
                     Text("haha")
                 }
-            }.foregroundColor(.red)
+            }
             
-            Section.init(header: Text("header")) {
+            Section.init(header:
+               Text("header")
+            ) {
                 ForEach.init(0...12) { _ in
                     Text("hiii")
                     .background(Color.red)
