@@ -31,6 +31,7 @@
 		E6965B4F22CDBFFB00E2C861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6965B4D22CDBFFB00E2C861 /* LaunchScreen.storyboard */; };
 		E6965B5A22CDBFFB00E2C861 /* swiftUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6965B5922CDBFFB00E2C861 /* swiftUITestTests.swift */; };
 		E6965B6522CDBFFB00E2C861 /* swiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6965B6422CDBFFB00E2C861 /* swiftUITestUITests.swift */; };
+		E6B675CA22DC2D6A003AEC9D /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		E6965B6022CDBFFB00E2C861 /* swiftUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6965B6422CDBFFB00E2C861 /* swiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITestUITests.swift; sourceTree = "<group>"; };
 		E6965B6622CDBFFB00E2C861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				E612CB2922D702C500CF7DA2 /* AlertTestView.swift */,
 				E612CB2B22D7099C00CF7DA2 /* ModalTestView.swift */,
 				E612CB3122D7437900CF7DA2 /* TabbedTestView.swift */,
+				E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				E691B64322CF36870015732C /* ContentView.swift in Sources */,
 				E6965B4522CDBFF800E2C861 /* SceneDelegate.swift in Sources */,
 				E691B63E22CF36870015732C /* Landmark.swift in Sources */,
+				E6B675CA22DC2D6A003AEC9D /* NavigationTestView.swift in Sources */,
 				E691B64022CF36870015732C /* CircleImage.swift in Sources */,
 				E691B64522CF397F0015732C /* TestView.swift in Sources */,
 				E612CB3222D7437900CF7DA2 /* TabbedTestView.swift in Sources */,
