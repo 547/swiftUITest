@@ -14,10 +14,10 @@ struct ButtonTestView : View {
             Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
             Image(systemName: "delete.left")
         }
-            
         .padding(.all, 6)
         .clipShape(Rectangle())
         .overlay(Rectangle().stroke(Color.red, lineWidth: 2))
+        .cornerRadius(6)
     }
 }
 
