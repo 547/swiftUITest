@@ -33,6 +33,7 @@
 		E6965B6522CDBFFB00E2C861 /* swiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6965B6422CDBFFB00E2C861 /* swiftUITestUITests.swift */; };
 		E6B675CA22DC2D6A003AEC9D /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */; };
 		E6DFCA6322EEC72800ABF402 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6DFCA6222EEC72800ABF402 /* SF-Pro-Display-Regular.otf */; };
+		E6DFCA6522EEFAA000ABF402 /* ButtonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFCA6422EEFAA000ABF402 /* ButtonTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		E6965B6622CDBFFB00E2C861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		E6DFCA6222EEC72800ABF402 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		E6DFCA6422EEFAA000ABF402 /* ButtonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				E612CB2B22D7099C00CF7DA2 /* ModalTestView.swift */,
 				E612CB3122D7437900CF7DA2 /* TabbedTestView.swift */,
 				E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */,
+				E6DFCA6422EEFAA000ABF402 /* ButtonTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				E691B64122CF36870015732C /* LandmarkRowView.swift in Sources */,
 				E691B64D22D2EFE50015732C /* CollectionViewCell.swift in Sources */,
 				E691B64B22D2E66D0015732C /* MoreTest.swift in Sources */,
+				E6DFCA6522EEFAA000ABF402 /* ButtonTestView.swift in Sources */,
 				E612CB2622D6E19200CF7DA2 /* GroupTestView.swift in Sources */,
 				E691B64922CF4F490015732C /* CombinedView.swift in Sources */,
 				E612CB2A22D702C500CF7DA2 /* AlertTestView.swift in Sources */,

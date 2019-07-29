@@ -43,8 +43,6 @@ struct SectionTestView : View {
                     }
                     Spacer()
                 }).padding(0).background(Color.blue).relativeWidth(1.1)
-               
-                
                 //下面这种写法也是一样的
 //                VStack.init(content: {
 //                    Spacer()
