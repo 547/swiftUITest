@@ -32,6 +32,7 @@
 		E6965B5A22CDBFFB00E2C861 /* swiftUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6965B5922CDBFFB00E2C861 /* swiftUITestTests.swift */; };
 		E6965B6522CDBFFB00E2C861 /* swiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6965B6422CDBFFB00E2C861 /* swiftUITestUITests.swift */; };
 		E6B675CA22DC2D6A003AEC9D /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */; };
+		E6DFCA6322EEC72800ABF402 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6DFCA6222EEC72800ABF402 /* SF-Pro-Display-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		E6965B6422CDBFFB00E2C861 /* swiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITestUITests.swift; sourceTree = "<group>"; };
 		E6965B6622CDBFFB00E2C861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B675C922DC2D6A003AEC9D /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
+		E6DFCA6222EEC72800ABF402 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		E6965B4122CDBFF800E2C861 /* swiftUITest */ = {
 			isa = PBXGroup;
 			children = (
+				E6DFCA6122EEC6E500ABF402 /* iconFonts */,
 				E691B63622CF36870015732C /* Models */,
 				E691B63822CF36870015732C /* Views */,
 				E68CDA9E22CDC6F900B7BE2B /* swiftUITest.entitlements */,
@@ -203,6 +206,14 @@
 				E6965B6622CDBFFB00E2C861 /* Info.plist */,
 			);
 			path = swiftUITestUITests;
+			sourceTree = "<group>";
+		};
+		E6DFCA6122EEC6E500ABF402 /* iconFonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFCA6222EEC72800ABF402 /* SF-Pro-Display-Regular.otf */,
+			);
+			path = iconFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			files = (
 				E6965B4F22CDBFFB00E2C861 /* LaunchScreen.storyboard in Resources */,
 				E6965B4C22CDBFFB00E2C861 /* Preview Assets.xcassets in Resources */,
+				E6DFCA6322EEC72800ABF402 /* SF-Pro-Display-Regular.otf in Resources */,
 				E6965B4922CDBFFB00E2C861 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

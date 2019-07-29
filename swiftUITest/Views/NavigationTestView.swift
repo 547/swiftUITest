@@ -16,18 +16,25 @@ struct NavigationTestView : View {
         NavigationView {
             VStack{
                 Rectangle.init()
-                    .foregroundColor(.red)
-                    .frame(width: UIScreen.main.bounds.width, height: 160).edgesIgnoringSafeArea(.top)
-              
+                    .foregroundColor(.white)
+                    .frame(width: UIScreen.main.bounds.width, height: 160).edgesIgnoringSafeArea(.all)
+                
                 List.init {
                     ForEach.init(0...8) { _ in
-                        Text("45545")
+                        HStack {
+                            Image(systemName: "delete.left")
+                            .foregroundColor(.black)
+                            Text("545555")
+                            .font(.system(size: 20))
+                            Text("\u{1C70}")
+                                .font(.custom("SF-Pro-Display-Regular.otf", size: 20))
+                            .color(.purple)
+                        }
                     }
                 }.background(Color.red).offset(y: -160)
-                
             }
-                
-            .navigationBarTitle("title", displayMode: .large)
+            .navigationBarTitle("title", displayMode: .automatic)
+            .accentColor(.yellow)
         }
     }
 }
